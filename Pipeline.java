@@ -22,7 +22,7 @@ public class TwoFunctionsExample {
     }
 }
 
-pipeline {
+//pipeline {
     agent any
 
     stages {
@@ -55,4 +55,4 @@ pipeline {
             echo 'Pipeline failed!'
         }
     }
-}
+}//
