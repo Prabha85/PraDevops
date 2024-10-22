@@ -1,13 +1,13 @@
 pipeline {
     agent any
     environment {
-        MAVEN_HOME = tool name: 'Maven 3.8.4' // Specify your Maven version
+        MAVEN_HOME = tool name: 'Maven 3.23' // Specify your Maven version
         PATH = "${MAVEN_HOME}/bin:${env.PATH}"
     }
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/your-repository/your-project.git'  // Your Git repository
+                git 'https://github.com/https://github.com/Prabha85/PraDevops.git/maven pipeline.git' // Your Git repository
             }
         }
         stage('Build') {
